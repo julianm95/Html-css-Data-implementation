@@ -11,6 +11,7 @@ body{
   margin-bottom: auto;
   background-color: blue;
 }.sidenav{
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -28,8 +29,19 @@ body{
   text-align: center;
 }H1,h2,h3,h4,h5,h6{
   font-weight: 700;
-}p{
-  
+}a{
+  text-decoration: none;
+  color: black;
+}a:hover{
+  color: rgb(0, 255, 0);
 }.h:hover{
   color: white;
+}.nav-links{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 800;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  list-style: none;
+  display: block;
 }
