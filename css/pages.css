@@ -1,11 +1,35 @@
 
-body.main{
+body{
+  background-color: yellow;
+}.main{
   font-family: Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
-
-
+  padding: 0;
+  padding-left: 17rem;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: auto;
+  background-color: blue;
+}.sidenav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: red;
+  width: 17rem;
+  height: 100vh;
+  text-align: center;
 }H1,h2,h3,h4,h5,h6{
   font-weight: 700;
 }p{
-}.text{
-
+  
+}.h:hover{
+  color: white;
 }
